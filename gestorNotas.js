@@ -15,7 +15,7 @@ function agregarNota(titulo, contenido) {
   notas.push(nuevaNota);
 
   fs.writeFileSync(filePath, JSON.stringify(notas, null, 2));
-  console.log('Nota agregada con éxito.');
+  console.log('Nota agregada con exito.');
 }
 
 function listarNotas() {
